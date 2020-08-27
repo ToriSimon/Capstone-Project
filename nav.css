@@ -1,0 +1,126 @@
+/* Common nav styles */
+.navigation-bar-wrapper {
+    height: 110px;
+    background-color: black;
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+/* Logo styles */
+.navigation-bar-wrapper > .logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.navigation-bar-wrapper > .logo img {
+    width: 240px;
+    height: 100%;
+}
+
+/* Explore styles */
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper > .pens-wrapper a {
+    padding-right: 15px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper > .projects-wrapper a {
+    padding-right: 15px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper > .posts-wrapper a {
+    padding-right: 15px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper > .collections-wrapper a {
+    padding-right: 30px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-text {
+    color: rgb(243, 193, 67);
+    font-weight: none;
+    font-size: 0.5em; 
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper > .spark-wrapper > .spark-text {
+    color: grey;
+    padding-right: 10px;
+}
+
+.navigation-bar-wrapper > .explore-wrapper > .explore-choices-wrapper > .drop-down-arrow i {
+    color: lightgrey;
+    font-size: 0.9em;
+}
+
+/* Create button styles */
+.navigation-bar-wrapper > .create-button-wrapper .btn{
+    color: white;
+    background-color: rgb(86, 87, 87);
+    font-size: 1.2em;
+    padding: 10px 18px;
+    border: 1px solid rgb(86, 87, 87);
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar-wrapper > .create-button-wrapper .btn > .button-arrow {
+    color: rgb(133, 221, 133);
+    padding-left: 5px;
+}
+
+.navigation-bar-wrapper > .maginifine-glass i {
+    color: grey;
+    font-size: 1.8em;
+    padding: 20px;
+}
+
+.navigation-bar-wrapper > .log-in-button .btn{
+    color: white;
+    background-color: rgb(86, 87, 87);
+    font-size: 1.2em;
+    padding: 10px 18px;
+    border: 1px solid rgb(86, 87, 87);
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar-wrapper > .log-in-button {
+    padding-right: 10px
+}
+
+.navigation-bar-wrapper > .sign-up-button .btn{
+    color: white;
+    background-color: rgb(86, 87, 87);
+    font-size: 1.2em;
+    padding: 10px 18px;
+    border: 1px solid rgb(86, 87, 87);
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

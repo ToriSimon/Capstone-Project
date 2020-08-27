@@ -1,0 +1,99 @@
+/* Common styles */
+.content-wrapper {
+    background-image: radial-gradient(circle, rgb(71, 71, 71), rgb(31, 29, 29));
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: -4px;
+}
+
+/* Information styles */
+.content-wrapper > .information-wrapper > .p-wrapper > .first-section {
+    color: white;
+    font-size: 2.5em;
+    padding-top: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.content-wrapper > .information-wrapper > .p-wrapper > .first-section > .h5 i {
+    color: goldenrod;
+}
+
+
+.content-wrapper > .information-wrapper > .p-wrapper > .paragraph {
+    color: rgb(163, 162, 162);
+    font-size: 2em;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.content-wrapper > .information-wrapper > .buttons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.content-wrapper > .information-wrapper > .buttons-wrapper > .sign-up-for-free-button .btn{
+    color: black;
+    background-color: rgb(99, 247, 160);
+    font-size: 2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid rgb(99, 247, 160);
+    border-radius: 3px;
+    outline: none;
+}
+
+.content-wrapper > .information-wrapper > .buttons-wrapper > .learn-more-button .btn {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* Image styles */
+.content-wrapper > .example-image-wrapper > .heading-wrapper {
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.content-wrapper > .example-image-wrapper > .heading-wrapper > .heading-2 {
+    color: white;
+    font-size: 10px;
+    padding-right: 3px;
+    padding-top: 20px;
+}
+
+.content-wrapper > .example-image-wrapper > .heading-wrapper > .heading-3 {
+    color: rgb(111, 204, 235);
+    font-size: 13px;
+    padding-right: 3px;
+    padding-top: 20px;
+}
+
+.content-wrapper > .example-image-wrapper > .heading-wrapper > .heading-4 {
+    color: white;
+    font-size: 15px;
+    padding-right: 3px;
+    padding-top: 20px;
+}
+
+.content-wrapper > .example-image-wrapper > .example-image img {
+    padding-left: 20px;
+    margin-bottom: -4px;
+    width: 500px;
+    height: 100%;
+}
